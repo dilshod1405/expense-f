@@ -1,47 +1,40 @@
 # Expense Dashboard - Frontend
 
-This is the frontend part of the Expense Dashboard project, built with **React.js** and **Chart.js**.
+> An elegant React.js frontend visualizing company’s monthly expenses with interactive charts and insightful visual cues.
 
 ---
 
-## Features
+## 🚀 Project Overview
 
-- Dark themed UI  
-- Interactive line chart showing monthly expenses  
-- Color-coded points to indicate increase (red) or decrease (green) in expenses  
-- Warning banner if expenses rise
+This project is the **frontend** part of the Expense Dashboard — a sleek, dark-themed dashboard built using **React.js** and **Chart.js**.  
+It fetches monthly expense data from a backend API and displays an interactive line chart with colored data points indicating spending trends:
+
+- 🔴 Red points mark increased expenses  
+- 🟢 Green points highlight decreased expenses  
+- ⚠️ A warning banner notifies when expenses rise
+
+This UI is designed to help companies easily track and analyze their expense fluctuations over the last year.
 
 ---
 
-## Installation and Running
+## 📸 Screenshot
+
+![Expense Dashboard Screenshot](https://i.ibb.co/DxKPmpT/image-2025-06-14-12-22-23.png)
+
+---
+
+## 🛠️ Technologies
+
+- **React.js** (JSX) — UI library  
+- **Chart.js** — Data visualization  
+- **Axios** — HTTP client for API calls
+
+---
+
+## 📦 Installation & Running
 
 ```bash
-git clone https://github.com/dilshod1405/
+git clone https://github.com/dilshod1405/expense-f.git
 cd frontend
 yarn install
 yarn dev
-```
-
-App runs on: [http://localhost:5173](http://localhost:5173)
-
-Make sure backend API is running and accessible at `http://localhost:5001/api/monthly-expenses`.
-
----
-
-## Technologies
-
-- React.js (JSX)  
-- Chart.js  
-- Axios  
-
----
-
-## Notes
-
-You can customize the API URL in the code if your backend runs on a different port.
-
----
-
-## Author
-
-Made with ❤️ by [Your Name]
