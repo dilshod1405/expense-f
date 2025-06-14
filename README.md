@@ -35,6 +35,6 @@ This UI is designed to help companies easily track and analyze their expense flu
 
 ```bash
 git clone https://github.com/dilshod1405/expense-f.git
-cd frontend
+cd expense-f
 yarn install
-yarn dev
+yarn start
